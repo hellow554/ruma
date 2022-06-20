@@ -79,7 +79,7 @@ impl RedactionError {
     }
 }
 
-/// A JSON type enum for [`JsonError`] variants.
+/// A JSON type enum for [`RedactionError`] variants.
 #[derive(Debug)]
 #[allow(clippy::exhaustive_enums)]
 pub enum JsonType {
