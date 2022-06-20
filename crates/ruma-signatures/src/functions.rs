@@ -8,6 +8,7 @@ use std::{
 
 use base64::{encode_config, STANDARD_NO_PAD, URL_SAFE_NO_PAD};
 use ruma_common::{
+    canonical_json::redact,
     serde::{base64::Standard, Base64},
     CanonicalJsonObject, CanonicalJsonValue, OwnedEventId, OwnedServerName, RoomVersionId, UserId,
 };
