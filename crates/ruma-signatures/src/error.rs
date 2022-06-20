@@ -46,7 +46,7 @@ pub enum Error {
 impl From<RedactionError> for Error {
     fn from(err: RedactionError) -> Self {
         match err {
-            RedactionError::NotOfType { field: target, of_type } => {
+            RedactionError::NotOfType { field: target, of_type, .. } => {
                 JsonError::NotOfType { target, of_type }.into()
             }
             RedactionError::JsonFieldMissingFromObject(field) => {
