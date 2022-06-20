@@ -46,7 +46,7 @@
 
 use ruma_common::serde::{AsRefStr, DisplayAsRefStr};
 
-pub use error::{Error, JsonError, JsonType, ParseError, VerificationError};
+pub use error::{Error, JsonError, ParseError, VerificationError};
 pub use functions::{
     canonical_json, content_hash, hash_and_sign_event, reference_hash, sign_json, verify_event,
     verify_json,
