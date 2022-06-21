@@ -1,5 +1,9 @@
 # [unreleased]
 
+Improvements:
+
+* Add `RoomVersion::V10` (MSC3604)
+
 # 0.7.0
 
 Breaking changes:
